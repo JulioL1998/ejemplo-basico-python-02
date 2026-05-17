@@ -16,14 +16,14 @@ Valor a cancelar: $75
 
 # Declaración de variables en Python (no se especifica el tipo de dato explícitamente)
 # Se capturan los valores mediante entrada de usuario
-nombre_completo = input("Ingrese los nombres completos del dueño de la línea telefónica: ")  
-direccion = input("Ingrese la dirección del domicilio: ")  
+nombre_completo = input("Ingrese los nombres completos del dueño de la línea telefónica: ")
+direccion = input("Ingrese la dirección del domicilio: ")
 
 # Captura de valores numéricos
-costo_por_minuto = input("Ingrese el costo por minuto: ")  
+costo_por_minuto = input("Ingrese el costo por minuto: ")
 costo_por_minuto = float(costo_por_minuto)  # Conversión a decimal (float) para permitir valores con decimales
 
-minutos_consumidos = input("Ingrese el número de minutos consumidos en el mes: ")  
+minutos_consumidos = input("Ingrese el número de minutos consumidos en el mes: ")
 minutos_consumidos = int(minutos_consumidos)  # Conversión a entero (int), ya que son minutos enteros
 
 # Cálculo del valor a cancelar
